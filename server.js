@@ -14,7 +14,7 @@ app.use(
   })
 );
 
-const uri = `mongodb+srv://bikram:bikram123@cluster0.pctsj.mongodb.net/graphql?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://bikram:hello123@cluster0.pctsj.mongodb.net/graphql?retryWrites=true&w=majority`;
 const options = { useNewUrlParser: true, useUnifiedTopology: true };
 mongoose
   .connect(uri, options)
